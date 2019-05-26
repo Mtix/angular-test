@@ -1,5 +1,7 @@
 <div class="tab-channel">
   <app-content>
-    blocki
+    <div class="items-wrapper">
+      <app-channel-items [channels]="channels$ | async"></app-channel-items>
+    </div>
   </app-content>
 </div>

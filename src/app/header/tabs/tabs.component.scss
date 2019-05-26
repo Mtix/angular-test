@@ -1,0 +1,20 @@
+a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    text-decoration: none;
+    &:hover {
+        color:#BA9D5A;
+    }
+    &.active {
+        font-weight: bold;
+        border-bottom: 1px solid #BA9D5A;
+
+    }
+}
+.tabs-navigator {
+    display: flex;
+}

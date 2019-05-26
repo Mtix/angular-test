@@ -1,0 +1,5 @@
+<div class="item-channel" *ngFor="let channel of channels">
+  <div class="bg" [ngStyle]="{'background-image': 'url(' + channel.picture.backgrounds[0] + ')'}">
+    <div class="logo" [ngStyle]="{'background-image': 'url(' + channel.picture.channelBlackWhites[0] + ')'}"></div>
+  </div>
+</div>
